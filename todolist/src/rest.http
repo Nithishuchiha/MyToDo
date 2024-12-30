@@ -1,0 +1,16 @@
+### ADD NEW TASK
+POST http://localhost:8080/addItem
+Content-Type: application/json
+
+{
+     
+     "task": "Do exercise for hour"
+}
+
+
+### SHOW ALL STATUS
+GET http://localhost:8080/getAll
+
+
+### DELETE COMPLETED STATUS
+ 
